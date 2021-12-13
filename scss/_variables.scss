@@ -1,1 +1,24 @@
 //COLORS
+
+$Dark-Blue-one: hsl(217, 28%, 15%);
+$Dark-Blue-two: hsl(218, 28%, 13%);
+$Dark-Blue-three: hsl(216, 53%, 9%);
+$Dark-Blue-four: hsl(219, 30%, 18%);
+$Cyan: hsl(176, 68%, 64%);
+$Blue: hsl(198, 60%, 50%);
+$Light-Red: hsl(0, 100%, 63%);
+
+$White: hsl(0, 0%, 100%);
+
+//UI
+
+$background-main: $Dark-Blue-two;
+$background-footer: $Dark-Blue-three;
+$background-testimonials: $Dark-Blue-four;
+$background-header:$Dark-Blue-one;
+$background-hero:$Dark-Blue-one;
+$background-button: $Blue;
+$background-button-hover:$Cyan;
+
+$color-main:$White;
+$color-error:$Light-Red;

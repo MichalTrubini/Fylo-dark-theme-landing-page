@@ -2,3 +2,26 @@
 
 //TYPOGRAPHY AND COLORS ----START
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background: $background-main;
+    color: $color-main;
+    text-align: center;
+}
+
+main {
+    background: $background-main;
+}
+
+footer {
+    background: $background-footer;
+}
+
+a {
+    color: $White;
+}
+
+li {
+    list-style: none;
+}
