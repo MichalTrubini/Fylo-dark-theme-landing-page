@@ -3,8 +3,7 @@
 //TYPOGRAPHY AND COLORS ----START
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
+
     background: $background-main;
     color: $color-main;
     text-align: center;
@@ -24,4 +23,312 @@ a {
 
 li {
     list-style: none;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+
+.nav {
+    &__list-link {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+}
+
+//TYPOGRAPHY AND COLORS ----END
+
+.header {
+    padding: 2.4rem 2rem 0;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+       width: 8rem; 
+    }
+
+    &__list {
+        display: flex;
+        justify-content: flex-start;
+        gap: 2.4rem;
+    }
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin: 4.8rem 0 12rem;
+
+    &__img-container {
+        padding: 0 3.6rem;
+        margin-bottom: 3.3rem;
+    }
+
+    &__heading {
+        padding: 0 2.8rem;
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__about {
+        padding: 0 4rem;
+        margin-bottom: 3.2rem;
+    }
+}
+
+.cta {
+    &__button {
+        background: linear-gradient(134.79deg, #63E1D9 -42.11%, #34A0CD 100%);
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+        border-radius: 24px;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        padding: 1.6rem 0;
+        display: block;
+        margin: auto;
+        color: $White;
+        border: none;
+    }
+
+    &__button--primary {
+        width: 24rem;
+    }
+
+    &__button--secondary {
+        width: 100%;
+    }
+}
+
+.highlights {
+    padding: 0 2.7rem;
+    display: grid;
+    gap: 8rem;
+    margin-bottom: 16rem;
+
+    &__image {
+        margin-bottom: 2.4rem;
+    }
+
+    &__heading {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+.productive {
+
+    &__image-container {
+        padding: 0 3.6rem;
+        margin-bottom: 4.8rem;
+    }
+
+    &__content {
+        padding: 0 2.8rem;
+    }
+
+    &__heading {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-bottom: 1.6rem;
+    }
+
+    &__about {
+        text-align: left;
+        margin-bottom: 1.6rem;
+    }
+
+    &__link-container {
+        text-align: left;
+    }
+
+    &__link {
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        margin-right: auto;
+        color: $Cyan;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        padding-bottom: 0.6rem;
+        border-bottom: 1px solid $Cyan;
+    }
+
+    &__icon {
+        margin-left: 0.7rem;
+        position: relative;
+        bottom: -4px;
+    }
+}
+
+.testimonials {
+    padding: 16rem 4.8rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    &__testimonial {
+        background: $background-testimonials;
+        box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+        border-radius: 3.93258px;
+        padding: 2.4rem 2rem;
+    }
+
+    &__quote {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        margin-bottom: 1.7rem;
+        text-align: left;
+    }
+
+    &__wrapper {
+        display: flex;
+        text-align: left;
+        gap: 0.8rem;
+        letter-spacing: 0.5px;
+    }
+
+    &__image {
+        width: 24px;
+        border-radius: 100%;
+    }
+
+    &__name {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin-bottom: 0.4rem;
+        font-weight: 700;
+    }
+
+    &__position {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+}
+
+.cta-block {
+    padding: 16rem 2rem 0;
+
+    &__container {
+        background: #1B2330;
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+        border-radius: 9px;
+        padding: 4rem 2.8rem 3.7rem;
+    }
+
+    &__heading {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-bottom: 1.6rem;
+    }
+
+    &__about {
+        margin-bottom: 3.2rem;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+
+        input {
+            box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+            border-radius: 24px;
+            border: none;
+            font-size: 1rem;
+            line-height: 1.3rem;
+            padding: 1.9rem 2.9rem 1.5rem;
+        }
+    }
+}
+
+#testimonial-quote {
+    background: url(../images/bg-quotes.png) no-repeat, $background-testimonials;
+    background-size: 32px;
+}
+
+.footer {
+    padding: 8.3rem 2.8rem 5.2rem;
+    text-align: left;
+
+    &__logo {
+        width: 10.8rem;
+        margin-bottom: 3.5rem;
+    }
+
+    &__about {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    &__location {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        margin-bottom: 1.6rem;
+    }
+
+    &__contact-block {
+        display: grid;
+        gap: 1.9rem;
+        margin-bottom: 5.6rem;
+    }
+
+    &__contact-container {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    &__link {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    &__links {
+        margin-bottom: 4.6rem;
+    }
+
+    &__links:last-child {
+        margin-bottom: 5.6rem;
+    }
+
+    &__list {
+        display: grid;
+        gap: 1.6rem;
+    }
+
+    &__social-block {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+    &__social-link {
+        width: 28px;
+        height: 28px;
+        border: 1px solid white;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
