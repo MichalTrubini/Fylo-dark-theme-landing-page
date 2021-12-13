@@ -360,6 +360,21 @@ p {
           box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
   border-radius: 3.93258px;
   padding: 2.4rem 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.testimonials__testimonial:first-child::before {
+  content: '';
+  background: url(../images/bg-quotes.png) no-repeat;
+  background-size: 20px;
+  display: block;
+  width: 32px;
+  height: 50px;
+  position: absolute;
+  top: -12px;
+  left: 6px;
+  z-index: -10;
 }
 
 .testimonials__quote {
@@ -367,6 +382,15 @@ p {
   line-height: 1.8rem;
   margin-bottom: 1.7rem;
   text-align: left;
+}
+
+.testimonials__quote-icon {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: -1;
+  width: 32px;
+  display: none;
 }
 
 .testimonials__wrapper {
@@ -436,11 +460,6 @@ p {
   font-size: 1rem;
   line-height: 1.3rem;
   padding: 1.9rem 2.9rem 1.5rem;
-}
-
-#testimonial-quote {
-  background: url(../images/bg-quotes.png) no-repeat, #202a3c;
-  background-size: 32px;
 }
 
 .footer {
