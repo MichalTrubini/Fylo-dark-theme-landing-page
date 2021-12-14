@@ -162,7 +162,6 @@ html {
 }
 
 body {
-  background: #181f2a;
   color: white;
   text-align: center;
 }
@@ -202,10 +201,11 @@ p {
 }
 
 .header {
-  padding: 2.4rem 2rem 0;
+  background: #1c2431;
 }
 
 .nav {
+  padding: 2.4rem 2rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,7 +239,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 4.8rem 0 12rem;
+  margin-top: 4.8rem;
 }
 
 .hero__img-container {
@@ -257,6 +257,11 @@ p {
 .hero__about {
   padding: 0 4rem;
   margin-bottom: 3.2rem;
+}
+
+.hero__content {
+  background: url(../images/bg-curvy-mobile.svg) bottom no-repeat;
+  padding-bottom: 12rem;
 }
 
 .cta__button {
