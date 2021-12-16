@@ -513,12 +513,17 @@ p {
             font-size: 1.6rem;
             line-height: 1.8rem;
         }
+
+        &__list {
+            gap:5.7rem;
+        }
     }
 
     .hero {
 
         margin-top: 7.5rem;
         padding-bottom: 15.8rem;
+        width: 100%;
 
         &__img-container {
             padding: 0;
